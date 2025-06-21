@@ -1,0 +1,11 @@
+// constants/oft.ts
+export const GAS_LIMITS = {
+  BRIDGE_OPERATION: 1000000,
+  DEPLOYMENT: 2000000
+} as const;
+
+export const TIMING = {
+  NETWORK_SWITCH_DELAY: 2000,
+  TRANSACTION_CONFIRMATION: 5000,
+  REACT_STATE_UPDATE_DELAY: 1000
+} as const;
