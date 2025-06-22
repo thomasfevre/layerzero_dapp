@@ -4,7 +4,7 @@ This project is a React application that implements the LayerZero OFT (Omnichain
 **Deterministic Cross-Chain Contract Addressing**  
 The DApp uses Solidity's CREATE2 opcode to deploy OFT contracts at the same address on every chain. The address is derived from the bytecode and a fixed salt, which includes currently the token name and symbol. Make sure you use unique identifiers when deploying, because you cannot create two times the same token (same name and symbol) using the same factory (You can also use an other type of salt if you want to avoid this);
 
-Try it here : https://layerzero-dapp.vercel.app/
+👉Try it here : https://layerzero-dapp.vercel.app/
 
 
 ## React + Vite + TypeScript Template (react-vite-ui)
